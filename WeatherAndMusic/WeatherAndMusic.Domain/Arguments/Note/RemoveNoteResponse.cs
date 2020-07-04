@@ -3,7 +3,7 @@ using WeatherAndMusic.Domain.Interfaces.Arguments;
 
 namespace WeatherAndMusic.Domain.Arguments.Note
 {
-    public class DeleteNoteRequest : RequestBase, IRequest
+    public class RemoveNoteResponse : ResponseBase, IResponse
     {
     }
 }

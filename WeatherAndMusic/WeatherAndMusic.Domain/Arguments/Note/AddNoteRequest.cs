@@ -3,8 +3,9 @@ using WeatherAndMusic.Domain.Interfaces.Arguments;
 
 namespace WeatherAndMusic.Domain.Arguments.Note
 {
-    public class AddNoteRequest : ResponseBase, IResponse
+    public class AddNoteRequest : RequestBase, IRequest
     {
-
+        public int WMUserId { get; set; }
+        public string Text { get; set; }
     }
 }

@@ -5,7 +5,6 @@ namespace WeatherAndMusic.Domain.Arguments.WMUser
 {
     public class EditNoteResponse : ResponseBase, IResponse
     {
-        public int id { get; set; }
         public int WMUserId { get; set; }
         public string Text { get; set; }
 

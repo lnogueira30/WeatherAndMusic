@@ -18,6 +18,7 @@ namespace WeatherAndMusic.Infra.Persistence
         {
             builder.Entity<WMUser>().ToTable("mwuser");
             builder.Entity<Note>().ToTable("note");
+            builder.Entity<Log>().ToTable("log");
             builder.Ignore<Notifiable>();
             builder.Ignore<Notification>();
             builder.ApplyConfiguration<WMUser>(new ConfigurationWMUser());

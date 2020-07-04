@@ -2,3 +2,5 @@
 *.cache
 bin/
 obj/
+/WeatherAndMusic/.vs/WeatherAndMusic/v16
+/WeatherAndMusic/.vs/WeatherAndMusic/DesignTimeBuild
